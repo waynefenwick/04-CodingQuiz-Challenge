@@ -98,7 +98,9 @@ function checkAnswer(answer) {
      }
      if (currentQuestion === questions.length) {  // check if it's the last question
           clearInterval(timer);
-          gameOver();
+          setTimeout(function() {
+               gameOver();
+          }, 1000);
         } else {
           setTimeout(showQuestion, 1000);
         }
@@ -106,7 +108,8 @@ function checkAnswer(answer) {
 
 function gameOver() {
      if (currentQuestion === questions.length) {
-          challengeArea.innerHTML = '<div id="assessment">You answered ' + correctAnswers + ' out of ' + questions.length + ' questions correctly</div>' +
+          challengeArea.innerHTML = '<div id="assessment">You answered ' + correctAnswers + 
+          ' out of ' + questions.length + ' questions correctly</div>' +
           '<h1 id="gameOver">Game Over!</h1>' +
           '<p id="score">You scored ' + timerCount + ' out of 50</p>' +
             '<form id="name">' +
