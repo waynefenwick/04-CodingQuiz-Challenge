@@ -20,19 +20,22 @@ Getting this project up and running included the following steps:
     4. Worked on getting the functions to work....one-by-one.
     5. Once JavaScript was worked, I tweaked CSS styling.
 
+## View on the Web
+    https://waynefenwick.github.io/04-CodingQuiz-Challenge/
+
 ## Usage
 
     1. Click the start button
-    ![alt text](assets/start.png)
+    ![Start](./assets/start.png)
 
     2. Click on multiple choice buttons
-    ![alt text](assets/multiple-choice.png)
+    ![Choose](./assets/multiple-choice.png)
     
     3. Add your name and submit
-    ![alt text](assets/game-over.png)
+    ![Submit](./assets/game-over.png)
 
     4. Click on the link to see top scores by whom
-    ![alt text](assets/high-scores.png)
+    ![High Score](./assets/high-scores.png)
 
 
 ## Credits
