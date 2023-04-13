@@ -14,34 +14,33 @@ What I learned most about from this challenge was the JavaScript functions and u
 ## Installation
 
 Getting this project up and running included the following steps:
-    1. Creating a very basic HTML file with minimal divs and texting.
-    2. Creating a CSS file to implement some basic design elements.
-    3. Working on setting up the primary JavaScript vars as well as the functions structure.
-    4. Worked on getting the functions to work....one-by-one.
-    5. Once JavaScript was worked, I tweaked CSS styling.
+1. Creating a very basic HTML file with minimal divs and texting.
+2. Creating a CSS file to implement some basic design elements.
+3. Working on setting up the primary JavaScript vars as well as the functions structure.
+4. Worked on getting the functions to work....one-by-one.
+5. Once JavaScript was worked, I tweaked CSS styling.
 
 ## View on the Web
     https://waynefenwick.github.io/04-CodingQuiz-Challenge/
 
-## Usage
+## Mockup
 
-    1. Click the start button
-    ![Start](./assets/start.png)
+1. Click the start button
+    ![Start.](./assets/start.png)
 
-    2. Click on multiple choice buttons
-    ![Choose](./assets/multiple-choice.png)
+2. Click on multiple choice buttons
+    ![Choose.](./assets/multiple-choice.png)
     
-    3. Add your name and submit
-    ![Submit](./assets/game-over.png)
+3. Add your name and submit
+    ![Submit.](./assets/game-over.png)
 
-    4. Click on the link to see top scores by whom
-    ![High Score](./assets/high-scores.png)
+4. Click on the link to see top scores by whom
+    ![High Score.](./assets/high-scores.png)
 
 
 ## Credits
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
+Google search!
 
 ## License
 
