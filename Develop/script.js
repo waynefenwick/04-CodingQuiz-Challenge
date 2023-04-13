@@ -46,6 +46,14 @@ var questions = [
                     "d. All of the above"],
           answer: "d. All of the above"
      },
+     {
+          question: "7. Bootstrap relates to...",
+          choices: ["a. JavaScript", 
+                    "b. CSS",
+                    "c. HTML", 
+                    "d. Boots you wear"],
+          answer: "b. CSS"
+     },
 ]
 
 function startGame(event) {
