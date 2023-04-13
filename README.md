@@ -26,16 +26,16 @@ Getting this project up and running included the following steps:
 ## Mockup
 
 1. Click the start button
-    ![Start.](./assets/start.png)
+![Start.](./Assets/start.png)
 
 2. Click on multiple choice buttons
-    ![Choose.](./assets/multiple-choice.png)
+![Choose.](./Assets/multiple-choice.png)
     
 3. Add your name and submit
-    ![Submit.](./assets/game-over.png)
+![Submit.](./Assets/game-over.png)
 
 4. Click on the link to see top scores by whom
-    ![High Score.](./assets/high-scores.png)
+![High Score.](./Assets/high-scores.png)
 
 
 ## Credits
