@@ -15,7 +15,7 @@ var questions = [
           choices: ["a. True", "b. False"],
           answer: "a. True"
      },
-     {
+    /* {
           question: "2. CSS is:",
           choices: ["a. A standard language for storing, manipulating and retrieving data",
                     "c. The programming language of the Web",
@@ -53,7 +53,7 @@ var questions = [
                     "c. HTML", 
                     "d. Boots you wear"],
           answer: "b. CSS"
-     },
+     },*/
      ]
 
 function startGame(event) {
@@ -171,8 +171,7 @@ function viewHighScores(event) {
 
      var viewHighScoresBtn = document.getElementById("viewHighScores").querySelector('a');
      viewHighScoresBtn.addEventListener('click', viewHighScores);
-     </script>
-     
+
 function goHome() {
      window.location.href = "index.html";
      }

@@ -33,8 +33,15 @@ header {
 }
 
 #timer {
-     margin-bottom: 30px;
+     font-size: 30px;
+     color: rgb(255, 255, 255);
+     padding: 5px 10px 5px 10px;
+     background-color: rgb(25, 7, 41);
+     border-radius: 10px;
      text-align: center;
+     border: 2px solid rgb(250, 244, 255);
+     box-shadow: 0px 0px 5px 2px rgb(71, 68, 74);
+     vertical-align: bottom;
 }
 
 #viewHighScores {
@@ -100,11 +107,14 @@ main {
 }
 
 .questions {
-     font-size: 25px;
-     margin: 75px 200px 0px 140px;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     vertical-align: middle;
      font-weight: bold;
+     margin: 75px 200px 0px 0px;
+     font-size: 25px;
      border-bottom: 3px solid rgb(67, 58, 74);
-     padding-bottom: 20px;
 }
 
 .correctIncorrect {
@@ -116,6 +126,8 @@ main {
 }
 
 .answerBtn {
+     display: flex;
+     flex-wrap: wrap;
      font-size: 15px;
      font-weight: bold;
      color: rgb(255, 255, 255);
@@ -126,7 +138,7 @@ main {
      text-align: center;
      max-width: fit-content;
      cursor: pointer;
-     margin: 15px 15px 15px 100px;
+     margin: 5px 5px 5px 5px;
 }
 
 .answerBtn:hover {
@@ -141,29 +153,41 @@ main {
 
 #assessment {
      text-align: center;
-     margin: 75px 200px 15px 200px;
+     margin: 50px 200px 15px 200px;
      font-size: 30px;
      padding-bottom: 20px;
      border-bottom: 3px solid rgb(67, 58, 74);
 }
 
 #gameOver {
-     margin-top: 50px;
+     margin-top: 20px;
      text-align: center;
 }
 
 #name {
      text-align: center;
-     margin-top: 40px;
+     margin-top: 20px;
      line-break: 5px;
 }
 
 #score {
      margin: 5px;
+     text-align: center;
 }
 
 #saveBtn {
-     margin-top: 30px;
+     justify-content: center;
+     align-items: center;
+     font-size: 15px;
+     color: rgb(255, 255, 255);
+     padding: 10px 5px 10px 5px;
+     background-color: rgb(25, 7, 41);
+     border-color: 3px solid rgb(25, 7, 41);
+     border-radius: 10px;
+     text-align: center;
+     cursor: pointer;
+     width: 135px;
+     margin-top: 20px;
 }
 
 #nameInput {
