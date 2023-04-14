@@ -152,7 +152,8 @@ function saveScore(event) {
      window.location = "index.html";
      }
 
-function viewHighScores() {
+function viewHighScores(event) {
+     event.preventDefault();
      var scores = JSON.parse(localStorage.getItem("scores")) || [];
      var scoreList = '<ul id="scoreNameList">';
      for (var i = 0; i < scores.length; i++) {
@@ -168,6 +169,10 @@ function viewHighScores() {
      challengeArea.appendChild(homeBtn);
      }
 
+     var viewHighScoresBtn = document.getElementById("viewHighScores").querySelector('a');
+     viewHighScoresBtn.addEventListener('click', viewHighScores);
+     </script>
+     
 function goHome() {
      window.location.href = "index.html";
      }
