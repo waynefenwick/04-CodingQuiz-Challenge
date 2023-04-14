@@ -15,7 +15,7 @@ var questions = [
           choices: ["a. True", "b. False"],
           answer: "a. True"
      },
-    {
+     {
           question: "2. CSS is:",
           choices: ["a. A standard language for storing, manipulating and retrieving data",
                     "c. The programming language of the Web",
@@ -54,7 +54,7 @@ var questions = [
                     "d. Boots you wear"],
           answer: "b. CSS"
      },
-]
+     ]
 
 function startGame(event) {
      event.preventDefault();
@@ -63,7 +63,7 @@ function startGame(event) {
      currentAnswers = 0;
      startTimer();
      showQuestion();
-}
+     }
 
 function startTimer() {
      timerCount = 50;
@@ -71,11 +71,11 @@ function startTimer() {
           timerCount--;
           timerElement.textContent = timerCount;
           if (timerCount === 0) {
-            clearInterval(timer);
-            startGm.disabled = false;//add what happens after this
+          clearInterval(timer);
+          startGm.disabled = false;//add what happens after this
           }
-        },1000);
-      }
+     },1000);
+     }
 
 function showQuestion() {
      currentQuestion++;
@@ -109,9 +109,9 @@ function checkAnswer(answer) {
           setTimeout(function() {
                gameOver();
           }, 1000);
-        } else {
+     } else {
           setTimeout(showQuestion, 1000);
-        }
+     }
      }  
 
 function gameOver() {
@@ -120,13 +120,13 @@ function gameOver() {
           ' out of ' + questions.length + ' questions correctly</div>' +
           '<h1 id="gameOver">Game Over!</h1>' +
           '<p id="score">You scored ' + timerCount + ' out of 50</p>' +
-            '<form id="name">' +
-              '<label for="nameInput">Enter your name:</label>' +
-              '<input type="text" id="nameInput" name="nameInput"><br>' +
-              '<button id="saveBtn">Save Score</button>' +
-            '</form>';
-            currentQuestion = 0;
-            correctAnswers = 0;
+          '<form id="name">' +
+          '<label for="nameInput">Enter your name:</label>' +
+          '<input type="text" id="nameInput" name="nameInput"><br>' +
+          '<button id="saveBtn">Save Score</button>' +
+          '</form>';
+          currentQuestion = 0;
+          correctAnswers = 0;
           var score = timerCount;
           var saveBtn = document.getElementById("saveBtn");
           saveBtn.addEventListener("click", saveScore);
@@ -170,7 +170,7 @@ function viewHighScores() {
 
 function goHome() {
      window.location.href = "index.html";
-}
+     }
 
 startGm.addEventListener('click', startGame);
 

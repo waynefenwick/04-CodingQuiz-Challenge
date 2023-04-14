@@ -1,35 +1,47 @@
 
 body {
      background-color: rgb(229, 224, 230);
-     margin: 0%;
+     margin: 0;
+     padding: 0;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#heading {
-     display: flex;
+header {
+     flex-wrap: wrap;
      flex-direction: column;
-     color: rgb(253, 253, 253);
+     vertical-align: middle;
+     align-content: center;
+     min-width: 100%;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     background-image:linear-gradient(rgb(25, 7, 41), rgb(232, 203, 249));
+     color: white;
+     border-bottom: 2px static rgb(25, 7, 41);
+
+}
+
+#heading {
+     color: crgb(253, 253, 253);
      text-align: center;
      font-size: 40px;
      height: 140px;
-     background-image:linear-gradient(rgb(25, 7, 41), rgb(232, 203, 249));
      padding-top: 35px;
-     border-bottom: 3px solid rgb(25, 7, 41);
      text-shadow: 3px 3px 3px rgb(23, 22, 24);
 }
 
 #timer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
      font-size: 30px;
      color: rgb(255, 255, 255);
      padding: 5px 10px 5px 10px;
-     position: absolute;
      background-color: rgb(25, 7, 41);
      border-radius: 10px;
+     text-align: center;
      border: 2px solid rgb(250, 244, 255);
      box-shadow: 0px 0px 5px 2px rgb(71, 68, 74);
-     text-align: center;
-     top: 105px;
-     left: 680px;
      width: 50px;
 }
 
@@ -39,42 +51,63 @@ body {
      right: 20px;
      top: 140px;
 }
+
 h1 {
      text-align: center;
      margin-top: 70px;
+     width: 100%;
 }
+
 main {
+     display:flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
      margin-left: 300px;
      margin-right: 300px;
-     margin-top: -3px;
      background-color: rgb(249, 238, 255);
      border: 3px solid rgb(25, 7, 41);
-     height: 500px;
+     height: fit-content;
+     padding: 0 50px 50px 50px;
+     width: auto;
 }
 
 p {
+     display:flex;
+     justify-content: center;
      text-align: center;
-     margin: 75px 180px 15px 180px;
      font-size: 20px;
+     padding: 0 20px 0 20px;
 }
 
-#startGm {
+#button {
+     display: flex;
+     justify-content: center;
+     align-items: center;
      font-size: 15px;
      color: rgb(255, 255, 255);
      padding: 5px 10px 5px 10px;
-     position: absolute;
-     top: 500px;
-     left: 665px;
      background-color: rgb(25, 7, 41);
      border-color: 3px solid rgb(25, 7, 41);
      border-radius: 10px;
      text-align: center;
      cursor: pointer;
+     width: 120px;
+     para
 }
 
 #startGm:hover {
      background-color: rgb(198, 195, 199);
      color: rgb(25, 7, 41);
+}
+
+#challenge {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     vertical-align: middle;
+     align-content: center;
 }
 
 .questions {
@@ -129,7 +162,7 @@ p {
      margin-top: 50px;
      text-align: center;
 }
-  
+
 #name {
      text-align: center;
      margin-top: 40px;
@@ -170,6 +203,13 @@ p {
      text-align: center;
      cursor: pointer;
 }
+
+/*@media screen and (max-width: 800px) { --play around with this for the intro page
+     header {
+          flex-direction: column;
+     }
+}*/
+
 footer {
      text-align: center;
      color:rgb(25, 7, 41);
