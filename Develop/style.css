@@ -64,8 +64,8 @@ main {
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     margin-left: 300px;
-     margin-right: 300px;
+     margin-left: 200px;
+     margin-right: 200px;
      background-color: rgb(249, 238, 255);
      border: 3px solid rgb(25, 7, 41);
      height: fit-content;
@@ -81,24 +81,25 @@ p {
      padding: 0 20px 0 20px;
 }
 
-#button {
+#startGm {
      display: flex;
+     flex-wrap: wrap;
      justify-content: center;
      align-items: center;
      font-size: 15px;
      color: rgb(255, 255, 255);
-     padding: 5px 10px 5px 10px;
+     padding: 10px 5px 10px 5px;
      background-color: rgb(25, 7, 41);
      border-color: 3px solid rgb(25, 7, 41);
      border-radius: 10px;
      text-align: center;
      cursor: pointer;
-     width: 120px;
-     para
+     width: 135px;
+     margin-top: 10px;
 }
 
 #startGm:hover {
-     background-color: rgb(198, 195, 199);
+     background-color: rgb(255, 255, 255);
      color: rgb(25, 7, 41);
 }
 
