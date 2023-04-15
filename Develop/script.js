@@ -160,7 +160,7 @@ function viewHighScores(event) {
           scoreList += '<li id="scoreNameList">' + scores[i].initials + ' - ' + scores[i].score + '</li>';
      }
      scoreList += '</ul>';
-     challengeArea.innerHTML = '<h1 id="highScores">High Scores</h1>' + scoreList;
+     challengeArea.innerHTML = '<h1 id="highScores"><u>High Scores</u></h1>' + scoreList;
 
      var homeBtn = document.createElement("button");
      homeBtn.id = "home";
@@ -177,8 +177,3 @@ function goHome() {
      }
 
 startGm.addEventListener('click', startGame);
-
-
-
-
-
